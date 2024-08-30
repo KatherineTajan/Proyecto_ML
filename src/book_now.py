@@ -79,7 +79,7 @@ import csv
 
 #df = pd.read_csv('C:/Users/kathy/Desktop/ml/app/housingcaliforia.csv')
 
-df = pd.read_csv('C:/Users/kathy/Desktop/ml/app/housingcaliforia.csv') #RUTA DE DIRECTORIO DE TRABAJO DE CONTENEDOR
+df = pd.read_csv('housingcaliforia.csv') #RUTA DE DIRECTORIO DE TRABAJO DE CONTENEDOR
 
 # Renombrar variables 
 df_r = df.rename(columns={
