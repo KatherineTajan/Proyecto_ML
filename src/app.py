@@ -87,7 +87,7 @@ app = dash.Dash(
 server = app.server # <- For Render
 
 # Códificación de la imagen
-home1 = 'home1.png'
+home1 = 'assets/home1.png'
 with open(home1, 'rb') as image_file:
     imagen_codificada = base64.b64encode(image_file.read()).decode('utf-8')
 
